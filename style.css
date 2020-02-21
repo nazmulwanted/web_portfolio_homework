@@ -1,4 +1,5 @@
 body{
+    margin:0;
     font-family:'Ubuntu';
 }
 h1{
@@ -15,4 +16,23 @@ h1{
 }
 .half-width img{
     width:100%;
+}
+.top-banner{
+    background-image: url('images/top-banner.png');
+    background-repeat:no-repeat;
+}
+.middle-banner{
+    background-image: url('images/dream-bg.png');
+    background-repeat:no-repeat;
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration:none;
+    background-image:linear-gradient(45deg, lightSalmon, tomato);
+    font-weight:700px;
+    color:white;
+    padding:10px 20px;
+    border-radius:10px;
 }
